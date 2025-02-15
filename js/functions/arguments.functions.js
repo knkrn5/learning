@@ -1,3 +1,5 @@
+// arguments keyword is pre-defined in js
+
 function sum(a,b){
     return a + b
 }

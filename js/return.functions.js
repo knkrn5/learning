@@ -1,4 +1,4 @@
-// return leaning
+// return in arrow functions
 const obj = () => ({
     key: "data"
   });
@@ -46,8 +46,10 @@ const obj = () => ({
   const arr4 = () => {
     return ["a", "b"]
   };
+
   
-  
+// return in normal functions
+
   function obj4() {
     return {
       key: "data"

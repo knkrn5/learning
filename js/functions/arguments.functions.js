@@ -1,4 +1,4 @@
-// arguments keyword is pre-defined in js
+// arguments 
 
 function sum(a,b){
     return a + b

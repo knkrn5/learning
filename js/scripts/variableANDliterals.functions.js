@@ -12,7 +12,7 @@ a = 2
  b++
  var b = 3
 
- 
+
  //============
 // const
  const c = 2
@@ -57,6 +57,14 @@ true == "1"   // true (true → 1, then "1" → 1)
 
 value == null; /* Checks if value is either null or undefined. */
 // The double equals == works for both null and undefined
+
+(5 != '5'); // false (because '5' is converted to 5)
+(null != undefined); // false (they are considered equal in loose comparison)
+(0 != false); // false (false is converted to 
+(5 !== '5'); // true (number vs string, no coercion)
+(null !== undefined); // true (different types)
+(0 !== false); // true (number vs boolean)
+
 
 // ------------------------------------------------------
 

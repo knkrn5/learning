@@ -5,3 +5,4 @@ function xyz(){
 }
 
 const x = xyz
+const y = xyz() 

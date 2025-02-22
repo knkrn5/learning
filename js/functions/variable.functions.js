@@ -35,4 +35,18 @@ null === undefined  // false
 null == undefined  // true
 [] == false    // true (both are converted to 0)
 
+// Boolean converts to number first
+true == 1     // true (true → 1)
+false == 0    // true (false → 0)
+true == "1"   // true (true → 1, then "1" → 1)
+
+value == null; /* Checks if value is either null or undefined. */
+// The double equals == works for both null and undefined
+
 // ------------------------------------------------------
+
+data?.data = {} → ✅ Runs (because empty objects are truthy)
+data?.data = [] → ✅ Runs (empty arrays are truthy too)
+data?.data = "" → ❌ Doesn’t run (empty string is falsy)
+
+// -------------------------------------------------------------

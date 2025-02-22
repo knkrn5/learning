@@ -1,4 +1,4 @@
-// return in arrow functions
+// return in arrow functions, it has implicit return ()
 const obj = () => ({
     key: "data"
   });
@@ -48,7 +48,7 @@ const obj = () => ({
   };
 
   
-// return in normal functions
+// return in normal functions, // doesn't have implicit return
 
   function obj4() {
     return {

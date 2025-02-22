@@ -21,6 +21,9 @@ const user = {
     email: "mail@karan.email",
 }
 
+user.marks = 90;
+user[gender] = "male" //throw error [] can only be used to acess 
+
 
 const user2 = {
     user.age = 24

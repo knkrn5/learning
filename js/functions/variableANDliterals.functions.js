@@ -7,19 +7,24 @@ let a = "hello"
 const a = "nice"
 let a = 2
 
-if(age > 18){
-    var age = 20
-    const age = 20
-}else{
-    var age = 18
-    var age = 18
+if (age > 18) {
+    var age = 20;     // (1) ✅ Allowed (var can be redeclared)
+    const age = 20;   // (2) ❌ Error: 'age' has already been declared
+} else if (age === 18) {  
+    var age = 18;     // (4) ✅ Allowed but problematic with 'let' below
+    let age = 18;     // (5) ❌ Error: Redeclaration of 'age' in the same block
+} else {
+    var age = 15;     // (6) ✅ Allowed
+    var age = 13;     // (7) ✅ Allowed (var allows redeclaration)
 }
 
-// ============
+
+// ====================
 
 // let
 let b = 2
 b++
+let b = 6
 const b = 5
 var b  ="hello"
 
@@ -34,6 +39,7 @@ if(age > 18){
 // const
 const c = 2
 ++c     //behind the sence 
+const c = "hey"
 let c = "hey"
 var c = "nice"
 

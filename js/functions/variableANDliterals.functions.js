@@ -3,21 +3,25 @@
 // var
 var a = "hey"
 a = 2
- let a = "hello"
+let a = "hello"
+const a = "nice"
+let a = 2
 
 // ============
 
 // let
- let b = 2
- b++
- var b = 3
+let b = 2
+b++
+const b = 5
+var b  ="hello"
 
 
- //============
+//============
 // const
- const c = 2
- ++c
- let c = "hey"
+const c = 2
+++c     //behind the sence 
+let c = "hey"
+var c = "nice"
 
 
 
@@ -68,8 +72,8 @@ value == null; /* Checks if value is either null or undefined. */
 
 // ------------------------------------------------------
 
-data?.data = {} → ✅ Runs (because empty objects are truthy)
-data?.data = [] → ✅ Runs (empty arrays are truthy too)
-data?.data = "" → ❌ Doesn’t run (empty string is falsy)
+data?.data = {} → ✅ Runs(because empty objects are truthy)
+data?.data = [] → ✅ Runs(empty arrays are truthy too)
+data?.data = "" → ❌ Doesn’t run(empty string is falsy)
 
 // -------------------------------------------------------------

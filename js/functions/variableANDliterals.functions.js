@@ -35,18 +35,20 @@ if(age > 18){
     var age = 18
 }
 
-//============
+//=================================
 // const
 const c = 2
 ++c     //behind the sence 
 const c = "hey"
-let c = "hey"
+let c = "hello"
 var c = "nice"
 
 if(age > 18){
     const age = 20
 }else{
     const age = 18
+    var age = 18
+    let age = 18
 }
 
 

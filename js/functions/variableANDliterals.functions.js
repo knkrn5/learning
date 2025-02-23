@@ -7,6 +7,14 @@ let a = "hello"
 const a = "nice"
 let a = 2
 
+if(age > 18){
+    var age = 20
+    const age = 20
+}else{
+    var age = 18
+    var age = 18
+}
+
 // ============
 
 // let
@@ -15,6 +23,12 @@ b++
 const b = 5
 var b  ="hello"
 
+if(age > 18){
+    let age = 20
+}else{
+    let age = 18
+    var age = 18
+}
 
 //============
 // const
@@ -23,7 +37,11 @@ const c = 2
 let c = "hey"
 var c = "nice"
 
-
+if(age > 18){
+    const age = 20
+}else{
+    const age = 18
+}
 
 
 

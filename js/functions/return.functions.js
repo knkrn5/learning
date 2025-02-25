@@ -73,5 +73,35 @@ const obj = () => ({
     console.log("test")
   }
   
+
+//return with parameter 
+function user(username, age, emal) {
+    return (username, age, email)
+}
   
+function user(username, age, email) {
+    return {username, age, email}
+}
   
+//-------------------------------
+let result = (1, 2, 3);
+console.log(result); // Output: 3
+
+//=================================
+
+let result = {1, 2, 3};
+console.log(result);    
+
+let result = { a: 1, b: 2, c: 3 };
+console.log(result); // { a: 1, b: 2, c: 3 }
+
+
+
+let result = [1, 2, 3]; 
+console.log(result);
+
+
+
+
+
+

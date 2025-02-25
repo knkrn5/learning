@@ -56,12 +56,12 @@ const obj = () => ({
     }
   }
   
+  
   function obj5() {
     return [
       "user", "data"
     ];
   }
-  
   function arr5() {
     return [
       "user", "data"

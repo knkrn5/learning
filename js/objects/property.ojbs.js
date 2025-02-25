@@ -53,6 +53,20 @@ const user2 = {
     age: 24
 }
 
+//--------------------------------------------------
+const user = {
+    name: "karan",
+    age: 22,
+    email: "mail@karan.email",
+    address: {
+        city: "delhi",
+        state: "delhi"
+    },
+    fn: function(){
+        console.log("fn inside object as property")
+    }
+}
+
 
 // ------------------------------------------------------------
 const name = "email";

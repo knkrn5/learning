@@ -29,6 +29,11 @@ const user2 = {
     user.age = 24
 }
 
+user = {
+    ...user,
+    age: 24
+}
+
 //2
 const user = {
     name: "karan",
@@ -67,6 +72,21 @@ const user = {
     }
 }
 
+//-----------------------------------------
+//dynamic property
+const key = "dynamicKey";
+const obj = {
+  [key]: "This is a dynamic property",
+};
+console.log(obj.dynamicKey); // Output: This is a dynamic property
+
+
+const obj = {};
+obj["newProperty"] = "Dynamic value";
+console.log(obj.newProperty); // Output: Dynamic value
+
+
+
 
 // ------------------------------------------------------------
 const name = "email";
@@ -98,6 +118,11 @@ const variable = "age";
 const obj = {
     [variable]: 24
 }
+
+
+//--------------------------------------
+//json vs js obj
+invert comma keys
 
 
 

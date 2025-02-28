@@ -100,6 +100,26 @@ console.log(result); // { a: 1, b: 2, c: 3 }
 let result = [1, 2, 3]; 
 console.log(result);
 
+//------------------
+
+function test(a, b, c){
+  return (a, b, c);
+}
+
+//-----------------------
+
+function test(a, b, c) {
+ return [a, b, c];
+}
+console.log(test(1, 2, 3)); // [1, 2, 3]
+
+//------------
+
+function test(a, b, c) {
+ return { a, b, c };
+}
+const { a, b, c } = test(1, 2, 3);
+console.log(a, b, c); // 1 2 3
 
 
 

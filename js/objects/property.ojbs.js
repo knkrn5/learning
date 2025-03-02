@@ -10,6 +10,14 @@ console.log(user.age);
 console.log(user["email"]);
 
 
+//--------------------------------
+let obj = {
+    name: "karan",
+}
+
+obj = {name: "don"}
+
+
 
 
 //obj property assignment or creation

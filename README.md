@@ -1,3 +1,3 @@
 # CODING
 
-![JS Diagram](./js/imgs/js-flow.png)
+![JS Diagram](./js/imgs/js-flow-chart.png)

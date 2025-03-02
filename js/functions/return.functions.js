@@ -100,7 +100,8 @@ console.log(result); // { a: 1, b: 2, c: 3 }
 let result = [1, 2, 3]; 
 console.log(result);
 
-//------------------
+//==============================
+/* how comma work in js  */
 
 function test(a, b, c){
   return (a, b, c);
@@ -120,6 +121,18 @@ function test(a, b, c) {
 }
 const { a, b, c } = test(1, 2, 3);
 console.log(a, b, c); // 1 2 3
+
+//======================================
+if(age < 18) {
+  return console.log("sorry you are too young"); //return undefined
+}
+
+
+if(age < 18) {
+ console.log("sorry you are too young");
+ return  //exit
+}
+
 
 
 

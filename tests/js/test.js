@@ -1,8 +1,12 @@
-const sleep = (ms) => new Promise((resolve => {
-    console.log("hiii")
-    setTimeout(resolve, ms);
+const sleep = () => new Promise(((res, rej, next) => {
+    res("hiii")
+    rej("err")
+    next("test")
+    console.log(res, rej, next)
 }));
 
 sleep();
 
-console.dir(sleep);
+
+
+

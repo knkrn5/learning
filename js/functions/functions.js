@@ -20,3 +20,18 @@ a(()=> {  //wrote the function code directly as an argument
 
 
 //curry functions
+
+
+
+//anonymous functions
+Response => {  //if only one parameter
+    console.log(Response);
+}
+
+(Response )=> {
+    console.log(Response);
+}
+
+
+setTimeout(resolve, ms);  ===  setTimeout(() => resolve(), ms);
+

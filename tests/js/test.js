@@ -74,11 +74,11 @@ console.log(fn2())
 console.log(fn2) */
 
 
-const fn = function(){
+/* const fn = function (){
     console.log("output")
-    return 
+    return fn()
 }
 
-console.log(fn)
-
+console.log(fn())
+ */
 

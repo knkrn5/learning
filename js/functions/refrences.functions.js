@@ -14,6 +14,13 @@ const fntest2 = function fnName(){
 console.log(fntest2()) 
 console.log(fntest2)
 
+//same infinite loop
+const fn = function fnName(){
+    console.log("output")
+    return fn()
+}
+console.log(fn())
+
 //***************************************** */
 
 

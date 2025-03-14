@@ -1,4 +1,5 @@
 //parameter learning
+// a Literals cannot be a parameter of a function
 function myFunction(name, age, email) {
   console.log("");
 }

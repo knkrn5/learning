@@ -19,6 +19,12 @@ if (age > 18) {
 }
 
 
+var fn = 52
+var fn = function () {
+    console.log("hello")
+}
+
+
 // ====================
 
 // let

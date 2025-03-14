@@ -49,7 +49,6 @@ const obj = () => ({
 
   
 // return in normal functions, // doesn't have implicit return
-
   function obj4() {
     return {
       key: "data"

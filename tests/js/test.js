@@ -96,7 +96,7 @@ a[arr] = arr
 
 console.log(a)  */
 
-var arr = [1, 2, 3]
+/* var arr = [1, 2, 3]
 
 const arr2 = arr.map(item => {
     const arr3 = []
@@ -104,5 +104,26 @@ const arr2 = arr.map(item => {
     return arr3
 })
 
-console.log(arr2)
+console.log(arr2) */
+
+/* var arr = [1, 2, 3, 1, 9, 15, 2, 0]
+const arr2 = []
+
+for (let i in arr) {
+    var num = (arr[i]) - 2
+    arr2.push(num)
+}
+
+for (let i of arr) {
+    var num = (arr[i]) - 2
+    arr2.push(num)
+}
+
+console.log(arr2) */
+
+/* function num(a) {
+    console.log(a)
+}
+
+num(1)(2)(3)(4)(5) */
 

@@ -1,3 +1,18 @@
+//funciton declaration vs function expression
+
+//hoisting in funcitons
+function a(a, b) {   // Function `a` is defined
+    return a + b;     // This should return the sum of the two arguments
+    function b(a, b) {  // Function `b` is defined INSIDE `a`
+        console.log((a + b) - 72)
+        return (a + b) - 72
+    }
+}
+const res = a(1, 9);
+console.log(res); //1funtion b(a, b) .... complete b funciton is added to "a".
+
+//-------------------------
+
 //higher order funcitons
 funtion a(fn){
     console.log("hello")

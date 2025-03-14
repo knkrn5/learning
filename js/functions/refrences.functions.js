@@ -24,7 +24,7 @@ console.log(fn())
 //***************************************** */
 
 
-//reference
+//reference and return
 const fn = function fnName(){
     console.log("output")
 }

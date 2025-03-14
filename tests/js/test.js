@@ -82,3 +82,9 @@ console.log(fn2) */
 console.log(fn())
  */
 
+(function(){
+    console.log("hiii")
+})
+
+
+function a

@@ -1,3 +1,1 @@
-const fn = function fnName(){
-    console.log("output")
-}
+rr.map(item => (item*5))

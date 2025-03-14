@@ -84,7 +84,7 @@ console.log(fn())
 
 
 
-a ={
+/* a ={
     name: "karan",
     age: 12
 }
@@ -94,4 +94,15 @@ a ={
 var arr = [1, 2, 3]
 a[arr] = arr
 
-console.log(a)
+console.log(a)  */
+
+var arr = [1, 2, 3]
+
+const arr2 = arr.map(item => {
+    const arr3 = []
+    arr3.push(item)
+    return arr3
+})
+
+console.log(arr2)
+

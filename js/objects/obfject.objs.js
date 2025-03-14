@@ -1,9 +1,23 @@
 
 //deep vs shallow copy
 
-// In JavaScript, object keys must be strings or symbols.
-// When you use an object as a key, JavaScript automatically converts it to a string.
-// In JavaScript, when you use an object as a key in another object, it gets implicitly converted to a string
+/** In JavaScript, object keys must be strings or symbols. so js converts every datatype to string before using it as a key or obj property **********/ 
+a ={
+    name: "karan",
+    age: 12
+}
+//number
+let marks = 25
+a[marks] = marks 
+console.log(a)// output: { '25': 25, name: 'karan', age: 12 }
+a["marks"] = marks
+//array
+var arr = [1, 2, 3] //output: { name: 'karan', age: 12, '1,2,3': [ 1, 2, 3 ] }
+a[arr] = arr
+console.log(a)
+
+
+// In JavaScript, when you use an object or any datatype like a string as a key in another object, it gets implicitly converted to a string
 const a = {};
 const b = {
     name: 'tilak'

@@ -82,9 +82,16 @@ console.log(fn2) */
 console.log(fn())
  */
 
-(function(){
-    console.log("hiii")
-})
 
 
-function a
+a ={
+    name: "karan",
+    age: 12
+}
+
+
+
+var arr = [1, 2, 3]
+a[arr] = arr
+
+console.log(a)

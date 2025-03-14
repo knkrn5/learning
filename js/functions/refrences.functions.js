@@ -9,7 +9,7 @@ console.log(fn3)
 //VS
 const fntest2 = function fnName(){
     console.log("const with funciton name")
-    return fnName()//infinite loop
+    return fnName()//infinite loop recurrsive 
 }
 console.log(fntest2()) 
 console.log(fntest2)

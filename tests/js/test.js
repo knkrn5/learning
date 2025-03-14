@@ -47,7 +47,7 @@ b(result2) */
 
 //-------------------------------
 
-function fn1(a, b) {
+/* function fn1(a, b) {
     const res1 = a + b;
 
     function sum(res1, req = 72) {
@@ -64,6 +64,21 @@ function fn1(a, b) {
 }
 
 const result = fn1(1, 9);
-console.log(result);
+console.log(result); */
+
+/* const fn2 = function(){
+    console.log("ouput")
+    return "hiiii"
+}
+console.log(fn2())
+console.log(fn2) */
+
+
+const fn = function(){
+    console.log("output")
+    return 
+}
+
+console.log(fn)
 
 

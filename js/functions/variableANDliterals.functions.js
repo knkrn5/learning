@@ -1,3 +1,4 @@
+//Hoisting = accessing variables before they are declared
 // var, let and const
 
 // var

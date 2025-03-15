@@ -155,9 +155,25 @@ num(1)(2)(3)(4)(5) */
 
 fn2() */
 
-// const arr = ["hii", "hey me", "nice you"]
-const arr = ['finance insights, technical analysis']
+/* const arr = ["hey you, finance insights, technical analysis"]
+const arr2 = ['finance insights, technical analysis, hey you']
 
-arr.forEach(item => {
-    console.log(item)
-})
+arr2.some(currentCat =>
+    arr.some(postCat => postCat.includes(currentCat))
+); */
+
+
+/* const arr2 = ['finance insights, technical analysis, hey you']
+
+arr2.push('test')
+arr2.push('test2')
+arr2.push('test3')
+
+arr2.some(currentCat =>
+    console.log(currentCat.includes('test3'))
+);
+
+console.log(arr2) */
+
+const arr2 = ['finance insights, technical analysis, hey you']
+console.log(arr2[0].split(','))

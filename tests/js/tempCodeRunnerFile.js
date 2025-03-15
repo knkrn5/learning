@@ -1,1 +1,1 @@
-rr.map(item => (item*5))
+1, 1, 'test'

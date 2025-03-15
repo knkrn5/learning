@@ -127,3 +127,37 @@ console.log(arr2) */
 
 num(1)(2)(3)(4)(5) */
 
+/* function fn() {
+    if (age > 18) {
+        console.log("big")
+        return
+    } else {
+        console.log("small")
+        return
+    }
+
+    console.log("hello")
+} */
+
+/* function fn2() {
+    try {
+        console.log("hii")
+        return;
+    } catch (error) {
+        console.log(error)
+        return
+    } finally {
+        console.log("hello")
+    }
+
+    console.log("heyyy")
+}
+
+fn2() */
+
+// const arr = ["hii", "hey me", "nice you"]
+const arr = ['finance insights, technical analysis']
+
+arr.forEach(item => {
+    console.log(item)
+})

@@ -175,5 +175,25 @@ arr2.some(currentCat =>
 
 console.log(arr2) */
 
-const arr2 = ['finance insights, technical analysis, hey you']
-console.log(arr2[0].split(','))
+/* const arr2 = ['finance insights, technical analysis, hey you']
+console.log(arr2[0].split(',')) */
+
+// var arr = [1, 2, 3, 1, 9, 15, 2, 0]
+
+/* const temp =[]
+for(let i in arr){
+    const num = (arr[i] * 2)
+    temp.push(num)
+} */
+
+/* const temp =   arr.map((a) => a* 2)
+
+console.log(temp); */
+
+
+/* function a(){
+    console.log("hii")
+    a()
+}
+
+a() */

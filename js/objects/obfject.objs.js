@@ -1,3 +1,13 @@
+//nest
+const obj = {
+    name: "karan",
+    age: 22,
+    address: {
+        city: "delhi",
+        state: "delhi",
+        pincode: 110001
+    }
+}
 
 //deep vs shallow copy
 

@@ -46,7 +46,7 @@ function curriedMultiply(a) {
     };
 }
 //  The main logic doesn't execute until all parameters have been provided through the chain of function calls.
-console.log(curriedMultiply(2)(3)(4)); 
+console.log(curriedMultiply(2)(3)(4));
 
 
 //parameter dependence
@@ -62,6 +62,33 @@ function curriedAdd(a) {
 }
 const result = curriedAdd(1)(6)(5);
 console.log(result)
+
+
+//indefinte curry functions
+function infiniteCurry(a) {  // suppose: a = 5
+    return function (b) {  // suppose: a = 10
+        if (b !== undefined) {
+            return infiniteCurry(a + b);  // this will indefinitely call  "infiniteCurry(15)" like this, untill contidion is false
+        }
+        return a;
+    };
+}
+console.log(infiniteCurry(5)(10)(3)(1)(0)());
+
+
+//advance level==========================
+/* function curry(fn) {
+    return function curried(...args) {
+        if (args.length >= fn.length) {
+            return fn.apply(this, args);
+        } else {
+            return function (nextArg) {
+                return curried.apply(this, args.concat(nextArg));
+            };
+        }
+    };
+} */
+
 
 //------------------------------
 //function/callback chaining == Nested callbacks or callback nesting

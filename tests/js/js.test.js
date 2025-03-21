@@ -197,3 +197,5 @@ console.log(temp); */
 }
 
 a() */
+
+let a = "133 " //convert this to number

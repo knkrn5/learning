@@ -15,7 +15,7 @@ let obj = {
     name: "karan",
 }
 
-obj = {name: "don"}
+obj = { name: "don" }
 
 
 
@@ -55,22 +55,26 @@ user[mark] = 90 //throw error
 
 
 //----------- 
-// so if we want to updatet eh obj proprety usign [] we need to access property as string like with dot operator directly, and , if you're using a variable as a key, you don't need quotes
+// so if we want to updatet eh obj proprety usign [] we need to access property as string like with dot operator directly, and ,
 const buttonStates = {
     "module123": "Initial State",
     "module456": "Active"
-  };
-  
-  buttonStates["module123"] = "Read Later"; // Overwriting the value
-  console.log(buttonStates);
+};
+
+buttonStates["module123"] = "Read Later"; // Overwriting the value
+console.log(buttonStates);
+//  if you're using a variable as a key, you don't need quotes
+const module123 = "module123";
+buttonStates[module123] = "Read Later"; // Overwriting the value
+console.log(buttonStates);
 //vs
-  let buttonStates = {
+let buttonStates = {
     module123: "Initial State",
     module456: "Active"
-  };
-  buttonStates["module123"] = "hello"; // Overwriting the value
-  buttonStates[module123] = "hello"; // throw error
-  console.log(buttonStates);
+};
+buttonStates["module123"] = "hello"; // Overwriting the value
+buttonStates[module123] = "hello"; // throw error
+console.log(buttonStates);
 
 
 //3
@@ -95,7 +99,7 @@ const user = {
         city: "delhi",
         state: "delhi"
     },
-    fn: function(){
+    fn: function () {
         console.log("fn inside object as property")
     }
 }
@@ -104,7 +108,7 @@ const user = {
 //dynamic property
 const key = "dynamicKey";
 const obj = {
-  [key]: "This is a dynamic property",
+    [key]: "This is a dynamic property",
 };
 console.log(obj.dynamicKey); // Output: This is a dynamic property
 

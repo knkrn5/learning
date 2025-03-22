@@ -52,6 +52,7 @@ const user = {
 user.age = 24
 user.mark = 90
 user[mark] = 90 //throw error 
+user["mark"] = 90 //this will add the mark property
 
 
 //----------- 

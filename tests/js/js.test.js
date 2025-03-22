@@ -213,9 +213,22 @@ console.log(obj)
  */
 
 
-let buttonStates = {
+/* let buttonStates = {
     "module123": "Initial State",
     "module456": "Active"
   };
   buttonStates[module123] = "hello"; // Overwriting the value
-  console.log(buttonStates);
+  console.log(buttonStates); */
+
+
+/*   const user = {
+    name: "karan",
+    age: 22,
+    email: "mail@karan.email",
+}
+
+user.age = 24
+user.mark = 90
+user[mark] = 90 
+
+console.log(user) */

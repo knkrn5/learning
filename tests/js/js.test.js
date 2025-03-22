@@ -198,4 +198,24 @@ console.log(temp); */
 
 a() */
 
-let a = "133 " //convert this to number
+// let a = "133 " //convert this to number
+
+
+/* let obj = {
+    name: "karan",
+    age: 22,
+    email: "mail@karan.email",
+}
+
+obj["age"] = 24
+
+console.log(obj)
+ */
+
+
+let buttonStates = {
+    "module123": "Initial State",
+    "module456": "Active"
+  };
+  buttonStates[module123] = "hello"; // Overwriting the value
+  console.log(buttonStates);

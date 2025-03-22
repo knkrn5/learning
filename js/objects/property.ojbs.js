@@ -50,8 +50,27 @@ const user = {
 }
 
 user.age = 24
-user[mark] = 90 //throw error 
 user.mark = 90
+user[mark] = 90 //throw error 
+
+
+//----------- 
+// so if we want to updatet eh obj proprety usign [] we need to access property as string like with dot operator directly, and , if you're using a variable as a key, you don't need quotes
+const buttonStates = {
+    "module123": "Initial State",
+    "module456": "Active"
+  };
+  
+  buttonStates["module123"] = "Read Later"; // Overwriting the value
+  console.log(buttonStates);
+//vs
+  let buttonStates = {
+    module123: "Initial State",
+    module456: "Active"
+  };
+  buttonStates["module123"] = "hello"; // Overwriting the value
+  buttonStates[module123] = "hello"; // throw error
+  console.log(buttonStates);
 
 
 //3

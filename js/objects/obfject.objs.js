@@ -1,3 +1,18 @@
+//property vs string property
+// property key = These keys cannot contain special characters (e.g., -, spaces) or start with a number.
+let buttonStates = {
+    module123: "Initial State",
+    module456: "Active",
+    my-key: "hello" //error property name
+};
+//vs 
+let buttonStates = {
+    "module123": "Initial State",
+    "module456": "Active",
+    "my-key": "hello" // valid
+  };
+  
+
 //nest
 const obj = {
     name: "karan",

@@ -232,3 +232,4 @@ user.mark = 90
 user[mark] = 90 
 
 console.log(user) */
+

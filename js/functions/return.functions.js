@@ -1,3 +1,9 @@
+return function a() {
+  console.log("hey")
+  return "hii"
+}
+a() //output: This code will not work because return is being used outside of a function. return can only be used inside a function to return a value.
+
 // return in arrow functions, it has implicit return ()
 const obj = () => ({
     key: "data"

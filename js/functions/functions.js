@@ -48,6 +48,16 @@ function curriedMultiply(a) {
 //  The main logic doesn't execute until all parameters have been provided through the chain of function calls.
 console.log(curriedMultiply(2)(3)(4));
 
+//-------------------------------
+function outerFunction(a) { 
+    return (function innerFunction(b) { 
+        console.log(a + b);  // Now `a` correctly refers to the outer function parameter
+        return "hii";
+    })(10); // Pass a value for `b`
+}
+console.log(outerFunction(5));
+
+
 
 //parameter dependence
 function curriedAdd(a) {

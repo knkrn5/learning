@@ -49,8 +49,8 @@ function curriedMultiply(a) {
 console.log(curriedMultiply(2)(3)(4));
 
 //-------------------------------
-function outerFunction(a) { 
-    return (function innerFunction(b) { 
+function outerFunction(a) {
+    return (function innerFunction(b) {
         console.log(a + b);  // Now `a` correctly refers to the outer function parameter
         return "hii";
     })(10); // Pass a value for `b`
@@ -98,6 +98,19 @@ console.log(infiniteCurry(5)(10)(3)(1)(0)());
         }
     };
 } */
+
+//---------------------------------------
+//closure and lexical scoping 
+function createCounter() {
+    let count = 0;
+    return function () {
+        count++;
+        console.log('Current error:', count);
+        return count;
+    };
+}
+const counter = createCounter();
+counter(); //this will call the inner function and not the outer function
 
 
 //------------------------------
